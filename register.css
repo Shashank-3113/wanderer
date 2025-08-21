@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-container {
+  background: #fff;
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #FF5A5F;
+  margin-bottom: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.register-form label {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.register-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.register-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #FF5A5F;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: #e04a4e;
+}
+
+.or {
+  text-align: center;
+  margin: 20px 0 10px;
+  color: #888;
+}
+
+.google-btn,
+.facebook-btn {
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.google-btn:hover {
+  background-color: #e2e2e2;
+}
+
+.facebook-btn:hover {
+  background-color: #d0d0d0;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.login-link a {
+  color: #FF5A5F;
+  text-decoration: none;
+}
